@@ -1,0 +1,18 @@
+#Banner #banner_1 {
+  background-image: url(../../../assets/slider_1.jpg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#Banner #banner_3 {
+  background-image: url(../../../assets/slider_3.jpg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#Banner #banner_2 {
+  background-image: url(../../../assets/slider_2.jpg);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
