@@ -1,0 +1,17 @@
+#Courses .course_box:hover .plus_icon {
+  transform: rotate(45deg);
+  transition-duration: 0.3s;
+}
+#Courses .course_box:hover .img {
+  filter: blur(2px);
+}
+#Courses .course_box .course_details {
+  opacity: 0;
+  transform: translateY(30px);
+  transition-duration: 0.5s;
+}
+#Courses .course_box:hover .course_details {
+  opacity: 1;
+  transform: translateY(0px);
+  transition-duration: 0.2s;
+}
