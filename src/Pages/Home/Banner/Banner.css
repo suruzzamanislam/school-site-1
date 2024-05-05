@@ -29,6 +29,7 @@
 .swiper-button-next:hover {
   color: white !important;
   transition-duration: 0.1s;
+  border-color: white;
 }
 #Banner .swiper-button-prev:after,
 .swiper-button-next:after {
