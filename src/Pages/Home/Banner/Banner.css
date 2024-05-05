@@ -16,3 +16,21 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+#Banner .swiper-button-prev,
+.swiper-button-next {
+  color: gray !important;
+  border: 2px solid gray;
+  height: 60px !important;
+  width: 60px;
+  font-size: 20px !important;
+  z-index: 100 !important;
+}
+#Banner .swiper-button-prev:hover,
+.swiper-button-next:hover {
+  color: white !important;
+  transition-duration: 0.1s;
+}
+#Banner .swiper-button-prev:after,
+.swiper-button-next:after {
+  font-size: 30px;
+}
