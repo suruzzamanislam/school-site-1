@@ -9,27 +9,27 @@ const Navbar = () => {
   return (
     <div className=" text-white top-0 z-10 py-2 text-center absolute w-full px-3">
       <ul className="md:flex hidden justify-center items-center md:gap-x-3 lg:gap-x-6  text-2xl">
-        <li>
+        <li className="hover:text-[#cbb58b] cursor-pointer duration-200">
           <NavLink to="/">About</NavLink>
         </li>
-        <li>
+        <li className="hover:text-[#cbb58b] cursor-pointer duration-200">
           <NavLink to="/">Admissions</NavLink>
         </li>
-        <li>
+        <li className="hover:text-[#cbb58b] cursor-pointer duration-200">
           <NavLink to="/">Academics</NavLink>
         </li>
-        <li>
+        <li className="hover:text-[#cbb58b] cursor-pointer duration-200">
           <NavLink to="/">
             <img src={logo} alt="" />
           </NavLink>
         </li>
-        <li>
+        <li className="hover:text-[#cbb58b] cursor-pointer duration-200">
           <NavLink to="/">Research</NavLink>
         </li>
-        <li>
+        <li className="hover:text-[#cbb58b] cursor-pointer duration-200">
           <NavLink to="/">Blog</NavLink>
         </li>
-        <li>
+        <li className="hover:text-[#cbb58b] cursor-pointer duration-200">
           <NavLink to="/">Contact</NavLink>
         </li>
       </ul>
@@ -43,38 +43,38 @@ const Navbar = () => {
       </div>
       <div
         id="mobile_menu"
-        className={`duration-200 absolute w-full origin-top ${
+        className={`duration-200 absolute right-0 left-0 mx-auto md:hidden  w-[90%] origin-top ${
           isOpen ? 'scale-y-100' : 'scale-y-0'
         }`}
       >
         <ul className="bg-white text-black text-xl">
           <li
             onClick={() => setOpen(false)}
-            className="border-b border-black py-1"
+            className="border-b border-black py-1 hover:text-[#cbb58b]"
           >
             <NavLink>About</NavLink>
           </li>
           <li
             onClick={() => setOpen(false)}
-            className="border-b border-black py-1"
+            className="border-b border-black py-1 hover:text-[#cbb58b]"
           >
             <NavLink>Admissions</NavLink>
           </li>
           <li
             onClick={() => setOpen(false)}
-            className="border-b border-black py-1"
+            className="border-b border-black py-1 hover:text-[#cbb58b]"
           >
             <NavLink>Acedemics</NavLink>
           </li>
           <li
             onClick={() => setOpen(false)}
-            className="border-b border-black py-1"
+            className="border-b border-black py-1 hover:text-[#cbb58b]"
           >
             <NavLink>Blog</NavLink>
           </li>
           <li
             onClick={() => setOpen(false)}
-            className="border-b border-black py-1"
+            className="border-b border-black py-1 hover:text-[#cbb58b]"
           >
             <NavLink>Contact</NavLink>
           </li>

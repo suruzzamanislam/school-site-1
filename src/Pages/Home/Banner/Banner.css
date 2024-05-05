@@ -23,7 +23,6 @@
   height: 60px !important;
   width: 60px;
   font-size: 20px !important;
-  z-index: 100 !important;
 }
 #Banner .swiper-button-prev:hover,
 .swiper-button-next:hover {
