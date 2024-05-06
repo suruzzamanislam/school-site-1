@@ -1,0 +1,38 @@
+#Event #event_img {
+  background-image: url(../../../assets/upcoming-event-img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+}
+
+#Event .p_unerline::after {
+  content: '';
+  width: 40px;
+  height: 5px;
+  background-color: gray;
+  bottom: -5px;
+  left: 0;
+  position: absolute;
+}
+/* swiper pagination */
+.swiper-pagination {
+  position: relative;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+.swiper-pagination-bullets {
+  margin-top: 40px;
+}
+.swiper-pagination-bullet {
+  background-color: transparent !important;
+  opacity: 1 !important;
+  outline: 2px solid #665c7c;
+  outline-offset: 5px;
+}
+.swiper-pagination-bullet-active {
+  background-color: #222222 !important;
+  outline: none;
+  outline: 2px solid #665c7c;
+  outline-offset: 5px;
+}
