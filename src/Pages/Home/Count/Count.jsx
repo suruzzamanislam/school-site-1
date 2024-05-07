@@ -2,13 +2,13 @@ import './count.css';
 import { GiTeacher } from 'react-icons/gi';
 import { PiStudentFill } from 'react-icons/pi';
 import { SiHelpscout } from 'react-icons/si';
-import { FaTrophy } from 'react-icons/fa';
+import { CiTrophy } from 'react-icons/ci';
 
 const Count = () => {
   return (
     <div
       id="count"
-      className="px-3 md:px-16 lg:px-24 grid py-10 text-white grid-cols-4 justify-between"
+      className="px-3 md:px-16 lg:px-24 grid py-10 text-white grid-cols-2 gap-y-5 md:grid-cols-4 justify-between"
     >
       <div className="flex flex-col justify-center items-center gap-y-2">
         <GiTeacher className="text-7xl"></GiTeacher>
@@ -32,7 +32,7 @@ const Count = () => {
         </div>
       </div>
       <div className="flex flex-col justify-center items-center gap-y-2">
-        <FaTrophy className="text-7xl"></FaTrophy>
+        <CiTrophy className="text-7xl "></CiTrophy>
         <div className="flex flex-col justify-center items-center gap-y-2">
           <p className="text-4xl">13</p>
           <p className="text-3xl">Exp.</p>
