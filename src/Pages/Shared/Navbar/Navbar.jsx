@@ -10,7 +10,7 @@ const Navbar = () => {
     <div className=" text-white top-0 z-10 py-2 text-center absolute w-full px-3">
       <ul className="md:flex hidden justify-center items-center md:gap-x-3 lg:gap-x-6  text-2xl">
         <li className="hover:text-[#cbb58b] cursor-pointer duration-200">
-          <NavLink to="/">About</NavLink>
+          <NavLink to="/about">About</NavLink>
         </li>
         <li className="hover:text-[#cbb58b] cursor-pointer duration-200">
           <NavLink to="/">Admissions</NavLink>
@@ -52,7 +52,7 @@ const Navbar = () => {
             onClick={() => setOpen(false)}
             className="border-b border-black py-1 hover:text-[#cbb58b]"
           >
-            <NavLink>About</NavLink>
+            <NavLink to="/about">About</NavLink>
           </li>
           <li
             onClick={() => setOpen(false)}

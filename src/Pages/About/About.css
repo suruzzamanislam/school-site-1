@@ -1,0 +1,29 @@
+#about_banner {
+  background-image: url(../../assets/about-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom right;
+}
+
+/* swiper pagination */
+#About .swiper-pagination {
+  position: relative;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+#About .swiper-pagination-bullets {
+  margin-top: 40px;
+}
+#About .swiper-pagination-bullet {
+  background-color: transparent !important;
+  opacity: 1 !important;
+  outline: 2px solid #cbb58b;
+  outline-offset: 5px;
+}
+#About .swiper-pagination-bullet-active {
+  background-color: #cbb58b !important;
+  outline: none;
+  outline: 2px solid #cbb58b;
+  outline-offset: 5px;
+}
