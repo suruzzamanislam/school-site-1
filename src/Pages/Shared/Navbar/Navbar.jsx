@@ -13,7 +13,7 @@ const Navbar = () => {
           <NavLink to="/about">About</NavLink>
         </li>
         <li className="hover:text-[#cbb58b] cursor-pointer duration-200">
-          <NavLink to="/">Admissions</NavLink>
+          <NavLink to="/admissions">Admissions</NavLink>
         </li>
         <li className="hover:text-[#cbb58b] cursor-pointer duration-200">
           <NavLink to="/">Academics</NavLink>
@@ -58,7 +58,7 @@ const Navbar = () => {
             onClick={() => setOpen(false)}
             className="border-b border-black py-1 hover:text-[#cbb58b]"
           >
-            <NavLink>Admissions</NavLink>
+            <NavLink to="/admissions">Admissions</NavLink>
           </li>
           <li
             onClick={() => setOpen(false)}

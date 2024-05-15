@@ -1,5 +1,4 @@
 import './About.css';
-import Navbar from '../Shared/Navbar/Navbar';
 import Button from '../../Component/Button';
 import welcome from '../../assets/about-welcome-img.jpg';
 import { FaQuoteLeft } from 'react-icons/fa';
@@ -11,7 +10,6 @@ import teacher4 from '../../assets/our-teachers_04.jpg';
 import { FaFacebookF } from 'react-icons/fa';
 import { FaTwitter } from 'react-icons/fa';
 import { FaLinkedinIn } from 'react-icons/fa6';
-
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -21,18 +19,11 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 // import required modules
 import { Autoplay, Pagination } from 'swiper/modules';
+import Hero from '../../Component/Hero';
 const About = () => {
   return (
     <div className="mb-10" id="About">
-      <div
-        id="about_banner"
-        className="w-full h-[40vh] md:h-[60vh] flex items-center justify-center mb-9"
-      >
-        <Navbar></Navbar>
-        <h1 className=" text-center text-5xl lg:text-7xl md:mt-32 text-white lg:ml-14">
-          About Us
-        </h1>
-      </div>
+      <Hero title={'About Us'}></Hero>
       <div className="px-3 md:px-16 lg:px-24 flex flex-col lg:flex-row gap-y-4 items-center  gap-x-5">
         <div className="space-y-3 md:space-y-5 lg:w-4/6">
           <h1 className="text-3xl md:text-5xl font-semibold">What we are</h1>
@@ -80,7 +71,7 @@ const About = () => {
                   <FaQuoteLeft> </FaQuoteLeft>
                 </div>
                 <div>
-                  <p className="text-xl font-normal">
+                  <p className="text-xl font-normal text-center">
                     Lorem Ipsum has been the industry is standard dummy text
                     ever since the 1500s, when an unknown printer took a galley
                     of type and scrambled it to make a type specimen book.
@@ -105,7 +96,7 @@ const About = () => {
                   <FaQuoteLeft> </FaQuoteLeft>
                 </div>
                 <div>
-                  <p className="text-xl font-normal">
+                  <p className="text-xl font-normal text-center">
                     Lorem Ipsum has been the industry is standard dummy text
                     ever since the 1500s, when an unknown printer took a galley
                     of type and scrambled it to make a type specimen book.
@@ -280,6 +271,9 @@ const About = () => {
               </div>
             </div>
           </div>
+        </div>
+        <div className="mt-5 text-center">
+          <Button content="See All Teachers"></Button>
         </div>
       </div>
     </div>

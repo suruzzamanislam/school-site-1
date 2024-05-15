@@ -1,0 +1,8 @@
+.addmissions_list li {
+  list-style: none;
+  background: url(../../assets/right-icon.png) no-repeat;
+  font-size: 17px;
+  color: #cbb58b;
+  padding-left: 30px;
+  line-height: 2;
+}

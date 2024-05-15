@@ -20,7 +20,7 @@ const Footer = () => {
           SUBCIRBE
         </button>
       </div>
-      <div className="grid grid-cols-1 gap-y-8 md:grid-cols-4 gap-x-5 mt-8">
+      <div className=" gap-y-8 flex justify-between flex-wrap gap-x-5 mt-8">
         <div>
           <img src={logo} alt="" />
           <p>2016 © copyright All rights reserved.</p>
