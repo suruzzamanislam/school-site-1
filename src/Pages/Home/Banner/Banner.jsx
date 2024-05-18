@@ -39,7 +39,7 @@ const Banner = () => {
               linkage. Energistically reinvent web-enabled initiatives with
               premium processes. Proactively drive.
             </p>
-            <div className="flex flex-wrap gap-x-3 items-center md:ml-10">
+            <div className="flex flex-wrap gap-x-3 items-center justify-center md:justify-normal gap-y-2 md:gap-y-0 md:ml-10">
               <Button content="SEE PROGRAMS"></Button>
               <Button content="LEARN MORE"></Button>
             </div>
@@ -72,7 +72,7 @@ const Banner = () => {
               linkage. Energistically reinvent web-enabled initiatives with
               premium processes. Proactively drive.
             </p>
-            <div className="flex flex-wrap gap-x-3 items-center md:ml-10">
+            <div className="flex flex-wrap gap-x-3 items-center justify-center md:justify-normal gap-y-2 md:gap-y-0 md:ml-10">
               <Button content="SEE PROGRAMS"></Button>
               <Button content="LEARN MORE"></Button>
             </div>

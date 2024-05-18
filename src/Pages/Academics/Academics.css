@@ -1,0 +1,10 @@
+#academics select {
+  background: #fff url('../../assets/download.svg') no-repeat right 0.75rem
+    center;
+  -webkit-background-size: 8px 10px;
+  -webkit-appearance: none;
+}
+#academics select {
+  border: none;
+  outline: none;
+}

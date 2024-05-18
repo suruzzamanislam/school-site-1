@@ -4,7 +4,7 @@ import form_icon from '../../assets/form-icon.png';
 import Button from '../../Component/Button';
 const Admissions = () => {
   return (
-    <div className="mb-7">
+    <div id="admissions" className="mb-7">
       <Hero title="Admissions"></Hero>
       {/* rules */}
       <div className="px-3 md:px-16 lg:px-24 ">

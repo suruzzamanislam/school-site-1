@@ -1,8 +1,14 @@
-.addmissions_list li {
+#admissions .addmissions_list li {
   list-style: none;
   background: url(../../assets/right-icon.png) no-repeat;
   font-size: 17px;
   color: #cbb58b;
   padding-left: 30px;
   line-height: 2;
+}
+#admissions select {
+  background: #fff url('../../assets/download.svg') no-repeat right 0.75rem
+    center;
+  -webkit-background-size: 8px 10px;
+  -webkit-appearance: none;
 }
