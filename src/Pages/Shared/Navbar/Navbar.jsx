@@ -30,7 +30,7 @@ const Navbar = () => {
           <NavLink to="/">Blog</NavLink>
         </li>
         <li className="hover:text-[#cbb58b] cursor-pointer duration-200">
-          <NavLink to="/">Contact</NavLink>
+          <NavLink to="/contact">Contact</NavLink>
         </li>
       </ul>
       <div className="md:hidden flex justify-between items-center">
@@ -82,7 +82,7 @@ const Navbar = () => {
             onClick={() => setOpen(false)}
             className="border-b border-black py-1 hover:text-[#cbb58b]"
           >
-            <NavLink>Contact</NavLink>
+            <NavLink to="/contact">Contact</NavLink>
           </li>
         </ul>
       </div>

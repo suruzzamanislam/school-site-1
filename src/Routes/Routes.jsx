@@ -5,6 +5,7 @@ import About from '../Pages/About/About';
 import Admissions from '../Pages/Admissinos/Admissions';
 import Academics from '../Pages/Academics/Academics';
 import Research from '../Pages/Research/Research';
+import Contact from '../Pages/Contact/Contact';
 
 const router = createBrowserRouter([
   {
@@ -30,6 +31,10 @@ const router = createBrowserRouter([
       {
         path: '/research',
         element: <Research></Research>,
+      },
+      {
+        path: '/contact',
+        element: <Contact></Contact>,
       },
     ],
   },

@@ -3,10 +3,24 @@ import Hero from '../../Component/Hero';
 import research1 from '../../assets/research-img_01.jpg';
 import research2 from '../../assets/research-img_02.jpg';
 import research3 from '../../assets/research-img_03.jpg';
+import research4 from '../../assets/resources-img_01.jpg';
+import research5 from '../../assets/resources-img_02.jpg';
+import research6 from '../../assets/resources-img_03.jpg';
+import './Research.css';
+
 import research_banner from '../../assets/research-features_img.jpg';
+// Import Swiper React components
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/pagination';
+
+// import required modules
+import { Pagination } from 'swiper/modules';
 const Research = () => {
   return (
-    <div className="mb-10">
+    <div id="Research" className="mb-10">
       <Helmet>
         <title>Research</title>
       </Helmet>
@@ -118,6 +132,107 @@ const Research = () => {
             containing Lorem Ipsum...
           </p>
         </div>
+      </div>
+      <div className="px-3 md:px-16 lg:px-24 mt-16">
+        <h1 className="text-4xl mb-12 font-semibold font-sans text-gray-600 text-center">
+          Resources
+        </h1>
+        <Swiper
+          slidesPerView={1}
+          spaceBetween={10}
+          pagination={{
+            clickable: true,
+          }}
+          breakpoints={{
+            640: {
+              slidesPerView: 1,
+              spaceBetween: 20,
+            },
+            768: {
+              slidesPerView: 2,
+              spaceBetween: 40,
+            },
+            1024: {
+              slidesPerView: 3,
+              spaceBetween: 50,
+            },
+          }}
+          modules={[Pagination]}
+          className="mySwiper"
+        >
+          <SwiperSlide>
+            <div className="flex flex-col items-center text-center space-y-5">
+              <img className="rounded-full" src={research4} alt="" />
+              <p className="text-2xl font-semibold font-sans">
+                Proposals and awards »
+              </p>
+              <p className="text-xl font-sans text-gray-800">
+                uncover many web sites still in their infancy. Various versions
+                have evolved over the years, sometimes by accident crambled it.
+              </p>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="flex flex-col items-center text-center space-y-5">
+              <img className="rounded-full" src={research5} alt="" />
+              <p className="text-2xl font-semibold font-sans">
+                Integrity and compliance »
+              </p>
+              <p className="text-xl font-sans text-gray-800">
+                Dustry is standard dummy text ever since the 1500s, when an
+                unknown printer took a galley of type and scrambled it to make.
+              </p>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="flex flex-col items-center text-center space-y-5">
+              <img className="rounded-full" src={research6} alt="" />
+              <p className="text-2xl font-semibold font-sans">
+                Centers and institutes »
+              </p>
+              <p className="text-xl font-sans text-gray-800">
+                Readable English. Many desktop publishing packages and web page
+                editors now use Lorem Ipsum as their default model text.
+              </p>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="flex flex-col items-center text-center space-y-5">
+              <img className="rounded-full" src={research4} alt="" />
+              <p className="text-2xl font-semibold font-sans">
+                Proposals and awards »
+              </p>
+              <p className="text-xl font-sans text-gray-800">
+                uncover many web sites still in their infancy. Various versions
+                have evolved over the years, sometimes by accident crambled it.
+              </p>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="flex flex-col items-center text-center space-y-5">
+              <img className="rounded-full" src={research5} alt="" />
+              <p className="text-2xl font-semibold font-sans">
+                Integrity and compliance »
+              </p>
+              <p className="text-xl font-sans text-gray-800">
+                Dustry is standard dummy text ever since the 1500s, when an
+                unknown printer took a galley of type and scrambled it to make.
+              </p>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="flex flex-col items-center text-center space-y-5">
+              <img className="rounded-full" src={research6} alt="" />
+              <p className="text-2xl font-semibold font-sans">
+                Centers and institutes »
+              </p>
+              <p className="text-xl font-sans text-gray-800">
+                Readable English. Many desktop publishing packages and web page
+                editors now use Lorem Ipsum as their default model text.
+              </p>
+            </div>
+          </SwiperSlide>
+        </Swiper>
       </div>
     </div>
   );
