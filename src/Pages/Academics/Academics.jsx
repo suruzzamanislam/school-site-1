@@ -11,10 +11,14 @@ import courseImg8 from '../../assets/our-cources_08.jpg';
 
 import { FaStar } from 'react-icons/fa6';
 import { FaRegStarHalfStroke } from 'react-icons/fa6';
+import { Helmet } from 'react-helmet';
 
 const Academics = () => {
   return (
     <div id="academics">
+      <Helmet>
+        <title>Academics</title>
+      </Helmet>
       <Hero title="Academics"></Hero>
 
       <div className="px-5 md:px-20 lg:px-28 mb-10">

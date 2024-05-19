@@ -4,6 +4,7 @@ import Home from '../Pages/Home/Home';
 import About from '../Pages/About/About';
 import Admissions from '../Pages/Admissinos/Admissions';
 import Academics from '../Pages/Academics/Academics';
+import Research from '../Pages/Research/Research';
 
 const router = createBrowserRouter([
   {
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
       {
         path: '/academics',
         element: <Academics></Academics>,
+      },
+      {
+        path: '/research',
+        element: <Research></Research>,
       },
     ],
   },

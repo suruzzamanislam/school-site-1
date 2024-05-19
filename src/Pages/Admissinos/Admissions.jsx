@@ -2,9 +2,13 @@ import Hero from '../../Component/Hero';
 import './Admissions.css';
 import form_icon from '../../assets/form-icon.png';
 import Button from '../../Component/Button';
+import { Helmet } from 'react-helmet';
 const Admissions = () => {
   return (
     <div id="admissions" className="mb-7">
+      <Helmet>
+        <title>Admissions</title>
+      </Helmet>
       <Hero title="Admissions"></Hero>
       {/* rules */}
       <div className="px-3 md:px-16 lg:px-24 ">

@@ -20,9 +20,13 @@ import 'swiper/css/navigation';
 // import required modules
 import { Autoplay, Pagination } from 'swiper/modules';
 import Hero from '../../Component/Hero';
+import { Helmet } from 'react-helmet';
 const About = () => {
   return (
     <div className="mb-10" id="About">
+      <Helmet>
+        <title>About</title>
+      </Helmet>
       <Hero title={'About Us'}></Hero>
       <div className="px-3 md:px-16 lg:px-24 flex flex-col lg:flex-row gap-y-4 items-center  gap-x-5">
         <div className="space-y-3 md:space-y-5 lg:w-4/6">

@@ -14,6 +14,7 @@ const Footer = () => {
         <input
           className="w-full md:w-1/2 px-5 bg-[#3F3F3F] text-gray-300 text-xl focus:outline-none py-3"
           type="text"
+          placeholder="Enter your email address"
         />
 
         <button className="bg-[#637483] px-5 tracking-wider font-medium">
