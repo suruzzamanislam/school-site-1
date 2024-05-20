@@ -10,14 +10,14 @@ const Footer = () => {
       <h1 className="text-center text-3xl md:text-5xl tracking-widest font-medium">
         Newsletter
       </h1>
-      <div className="flex justify-center gap-x-2 md:gap-x-5 mt-5 border-b border-gray-600 pb-8">
+      <div className="flex flex-col md:flex-row gap-y-3 justify-center gap-x-2 md:gap-x-5 mt-5 border-b border-gray-600 pb-8">
         <input
           className="w-full md:w-1/2 px-5 bg-[#3F3F3F] text-gray-300 text-xl focus:outline-none py-3"
           type="text"
           placeholder="Enter your email address"
         />
 
-        <button className="bg-[#637483] px-5 tracking-wider font-medium">
+        <button className="bg-[#637483] px-5 py-3 tracking-wider font-medium">
           SUBCIRBE
         </button>
       </div>
