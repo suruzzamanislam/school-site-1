@@ -6,6 +6,7 @@ import Admissions from '../Pages/Admissinos/Admissions';
 import Academics from '../Pages/Academics/Academics';
 import Research from '../Pages/Research/Research';
 import Contact from '../Pages/Contact/Contact';
+import Blog from '../Pages/Blog/Blog';
 
 const router = createBrowserRouter([
   {
@@ -35,6 +36,10 @@ const router = createBrowserRouter([
       {
         path: '/contact',
         element: <Contact></Contact>,
+      },
+      {
+        path: '/blog',
+        element: <Blog></Blog>,
       },
     ],
   },
